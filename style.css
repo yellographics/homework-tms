@@ -1,0 +1,25 @@
+.table {    
+    border-collapse: collapse;   
+    width: 500px; 
+    margin-bottom: 50px;
+}
+
+tr {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black; 
+    text-align: center;
+    min-width: 150px;
+    padding: 10px;      
+}
+
+.sort {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    cursor: pointer;
+    height: 30px; 
+    font-size: 10px;   
+}
